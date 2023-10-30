@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useEffect, useState } from 'react';
+import React, { FunctionComponent, useState } from 'react';
 import './App.css';
 import Body from './components/Body';
 import Add, { AddProps } from './components/Add';
@@ -8,6 +8,7 @@ import Notificationsss from './Notifications/Notification';
 import ClearIcon from '@mui/icons-material/Clear';
 import Person2Icon from '@mui/icons-material/Person2';
 
+// eslint-disable-next-line @typescript-eslint/no-redeclare
 export interface Student{
   id:number,
   nom:string
